@@ -3,7 +3,7 @@ import Section from "./Section";
 import { collabApps, collabContent, collabText } from "../constants";
 import { check, cognizance } from "../assets";
 import Button from "./Button";
-import {LeftCurve, RightCurve} from "./design/Collaboration"
+import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
@@ -40,7 +40,7 @@ const Collaboration = () => {
               {collabApps.map((app, index) => (
                 <li key={app.id} className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${index * 45}`}>
                   <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
+                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl transition-all hover:scale-125 -rotate-${
                       index * 45
                     }`}
                   >
