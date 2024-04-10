@@ -36,9 +36,9 @@ const Header = () => {
       }`}
     >
       <div className="flex item-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 items-center">
-        <Link href="#hero" className="block w-[12rem] ">
+        <a href="#hero" className="block w-[12rem] ">
           <img src={cognizance} alt="cognizance logo" width={48} height={48} />
-        </Link>
+        </a>
         <nav
           className={` ${
             openNavigation ? "flex" : "hidden "
@@ -46,7 +46,7 @@ const Header = () => {
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row ">
             {navigation.map((item) => (
-              <Link
+              <a
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
@@ -57,7 +57,7 @@ const Header = () => {
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
           </div>
 
