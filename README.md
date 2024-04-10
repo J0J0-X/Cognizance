@@ -1,4 +1,4 @@
-# Modern Web3 Landing Page
+# Modern AI Landing Page
 
 This project is a modern landing page built for Web3, utilizing Vite for fast development and React for dynamic user interfaces.
 
