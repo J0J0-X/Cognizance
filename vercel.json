@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.+\\.svg)",
+        "destination": "/$1"
+      }
+    ]
+  }
+  
